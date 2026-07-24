@@ -28,7 +28,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch("http://127.0.0.1:8000/stocks")
+    fetch("https://finpulse-backend-lghv.onrender.com/stocks")
 
       .then((response) => {
 
@@ -57,8 +57,8 @@ function App() {
 
 
     fetch(
-      "http://127.0.0.1:8000/market-summary"
-    )
+  "https://finpulse-backend-lghv.onrender.com/market-summary"
+)
 
       .then((response) => {
 
@@ -97,8 +97,8 @@ function App() {
 
 
     fetch(
-      `http://127.0.0.1:8000/stocks/${selectedTicker}/history`
-    )
+  `https://finpulse-backend-lghv.onrender.com/stocks/${selectedTicker}/history`
+)
 
       .then((response) => {
 
