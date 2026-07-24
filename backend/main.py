@@ -22,6 +22,7 @@ app = FastAPI(
     version="1.1.0",
 )
 
+print("USING NEW CORS CONFIG")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://127.0.0.1:5173","https://fin-pulse-n6o23jz27-sofi-844b.vercel.app"],
