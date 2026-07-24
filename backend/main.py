@@ -24,7 +24,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173","https://fin-pulse-plum.vercel.app"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173","https://fin-pulse-n6o23jz27-sofi-844b.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
