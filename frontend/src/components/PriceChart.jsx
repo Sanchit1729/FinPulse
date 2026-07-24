@@ -11,7 +11,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://finpulse-backend-lghv.onrender.com";
 
 const RANGE_OPTIONS = [
   { label: "1D", value: "1d" },
