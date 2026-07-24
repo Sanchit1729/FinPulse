@@ -9,7 +9,7 @@ FinPulse is a full-stack stock market intelligence dashboard built using **React
 ## 🚀 Live Deployment
 
 **Frontend**
-https://fin-pulse-n6o23jz27-sofi-844b.vercel.app
+https://fin-pulse-plum.vercel.app/
 
 **Backend API**
 https://finpulse-backend-lghv.onrender.com
